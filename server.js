@@ -48,7 +48,7 @@ MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
                         .toBuffer();
                 }
 
-    
+
                 let outputFormat = format || 'jpeg';
                 if (outputFormat === 'jpg') {
                     outputFormat = 'jpeg';
